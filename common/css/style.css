@@ -1,0 +1,12 @@
+#dynowidg-widget{}
+#dynowidg-widget dl{
+	height:150px;
+	overflow:auto;
+	border:1px solid #dfdfdf;
+	margin:0 0 1em;}
+#dynowidg-widget dl dt{
+	font-weight:bold;
+	padding-left:5px;
+	cursor:pointer}
+#dynowidg-widget dl dd{
+	padding-left:5px;}
