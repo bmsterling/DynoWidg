@@ -74,7 +74,7 @@ class DynoWidg_Widget extends WP_Widget {
 		DynoWidg_get_data();
 		
 		$instance = $old_instance;
-		print_r( $new_instance );
+
 		$new_instance = wp_parse_args(
 						(array) $new_instance, 
 						array( 
@@ -89,11 +89,7 @@ class DynoWidg_Widget extends WP_Widget {
 							'specific' => ''
 						) 
 					);
-// if ( !class_exists('FB') )
-	// require_once( 'F:\My Dropbox\..sites\plugins\Wordpress\wp-content\plugins\wp-firephp/FirePHPCore/fb.php' );
-// $firephp = FirePHP::getInstance(true);
-
-					
+			
 		$instance['title'] 		= strip_tags($new_instance['title']);
 		$instance['showheader'] = strip_tags($new_instance['showheader']);
 		$instance['cls'] 		= strip_tags($new_instance['cls']);

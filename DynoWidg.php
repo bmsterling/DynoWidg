@@ -1,7 +1,7 @@
 <?php
 /**
  * Plugin Name: DynoWidg
- * Plugin URI: http://dikhoffsoftware.com/dynamic-content-widget/
+ * Plugin URI: 
  * Description: This plugin will allow you to dynamically add any piece of content to the sidebar as well as give you the ability to limit what pages/sections based on Wordpress' conditionals and/or selecting specific areas to limit.
  * Version: 0.1
  * Author: Benjamin Sterling | KenzoMedia
