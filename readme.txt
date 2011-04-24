@@ -1,12 +1,16 @@
 === DynoWidg ===
 Contributors: bmsterling 
-Donate link:http://kenzomedia.com
-Tags: dynamic, widget, content type
+Donate link:http://benjaminsterling.com/donations/
+Tags: dynamic, widget, content type, logic
 Requires at least: 3.0
 Tested up to: 3.1.1
-Stable tag: trunk
+Stable tag: 0.1.1
 
 This plugin will allow you to dynamically add any piece of content to the sidebar as well as give you the ability to limit what pages/sections based on Wordpress' conditionals and/or selecting specific areas to limit.
+
+Need this plugin customized or need a plugin created, contact me via my contact form at <a href=\"http://kenzomedia.com\">http://kenzomedia.com</a>
+
+Also available through twitter, @bmsterling
 
 == Description ==
 
