@@ -1,4 +1,3 @@
-console.log( 'core.js is loaded' );
 jQuery( document )
 .ready(
 	function(){

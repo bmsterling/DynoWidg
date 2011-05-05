@@ -29,7 +29,7 @@ class DynoWidg_Widget extends WP_Widget {
 
 		echo $before_widget_result[1].
 				$before_widget_result[2].' '.
-				$dcw_cls.
+				$cls.
 				$before_widget_result[3];
 				
 		if ( $title && $showheader != '0' ){
@@ -40,7 +40,9 @@ class DynoWidg_Widget extends WP_Widget {
 		
 		$thepost->post_content = apply_filters('the_content', $thepost->post_content);
 		$thepost->post_content = str_replace(']]>', ']]&gt;', $thepost->post_content);
+		echo '<div class="pad">';
 		echo $thepost->post_content;
+		echo '</div>';
 		
 		echo $after_widget;
 	}

@@ -47,7 +47,7 @@
 <?php foreach( $DynoWidg_all as $data => $content ):?>
 			<option 
 				value="<?php echo $content->ID;?>"
-				<?php echo selected( $instance['cid'], $content->ID ) ?>>
+				<?php echo selected( $instance['cid'], $content->ID ) ?>>(<?php echo $content->ID;?>)
 				<?php echo $content->post_title;?>
 			</option>
 <?php endforeach; ?>

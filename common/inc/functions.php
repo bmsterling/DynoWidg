@@ -163,6 +163,7 @@ function DynoWidg_get_data(){
 			);
 		$DynoWidg_contenttype = get_post_types(array(), 'object');
 		unset( $DynoWidg_contenttype['revision'] );
+		unset( $DynoWidg_contenttype['nav_menu_item'] );
 		
 		$keys = array_keys( $DynoWidg_contenttype );
 		
